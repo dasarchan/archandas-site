@@ -1,0 +1,78 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { formatPostDate } from "../lib/date";
+import { getPostUrl } from "../lib/posts";
+
+const posts = (await getCollection("posts"))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+---
+
+<BaseLayout
+  title="Archandas"
+  description="A personal website and blog for writing, projects, and notes."
+>
+  <section class="wrap hero">
+    <div>
+      <p class="eyebrow">Personal site and blog</p>
+      <h1>Archandas</h1>
+      <p class="lede">
+        A quiet corner for essays, projects, notes, and the occasional half-formed idea
+        that deserves daylight.
+      </p>
+      <div class="actions">
+        <a class="button" href="/blog/">Read the blog</a>
+        <a class="button secondary" href="/projects/">See projects</a>
+      </div>
+    </div>
+    <figure class="hero-art">
+      <img
+        src="/archandas-profile.jpg"
+        alt="Archandas standing in front of hills at sunset."
+        width="1400"
+        height="1400"
+      />
+    </figure>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Recent Writing</h2>
+        <p class="muted">Start with a few draft posts, then let the archive grow naturally.</p>
+      </div>
+      <div class="post-list">
+        {
+          posts.map((post) => (
+            <a class="post-row" href={getPostUrl(post)}>
+              <time datetime={post.data.pubDate.toISOString()}>
+                {formatPostDate(post.data.pubDate)}
+              </time>
+              <h3>{post.data.title}</h3>
+              <p class="muted">{post.data.description}</p>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid">
+      <article class="card">
+        <h3>Essays</h3>
+        <p class="muted">Longer pieces about what you are learning, noticing, or wrestling with.</p>
+      </article>
+      <article class="card">
+        <h3>Projects</h3>
+        <p class="muted">A lightweight portfolio for experiments, shipped work, and prototypes.</p>
+      </article>
+      <article class="card">
+        <h3>Notes</h3>
+        <p class="muted">Shorter fragments, reading logs, field notes, and useful links.</p>
+      </article>
+    </div>
+  </section>
+</BaseLayout>
