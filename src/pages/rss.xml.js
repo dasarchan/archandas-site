@@ -36,8 +36,8 @@ export async function GET() {
     `<?xml version="1.0" encoding="UTF-8"?>
     <rss version="2.0">
       <channel>
-        <title>Archandas</title>
-        <description>Writing and notes from Archandas.</description>
+        <title>Archan Das</title>
+        <description>Writing and notes from Archan Das.</description>
         <link>${site}</link>
         ${items}
       </channel>

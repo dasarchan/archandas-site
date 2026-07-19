@@ -2,8 +2,8 @@
 import "../styles/global.css";
 
 const {
-  title = "Archandas",
-  description = "A personal website and blog for Archandas.",
+  title = "Archan Das",
+  description = "A personal website and blog for Archan Das.",
 } = Astro.props;
 
 const url = new URL(Astro.url.pathname, Astro.site);
@@ -23,7 +23,7 @@ const nav = [
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={url} />
-    <link rel="alternate" type="application/rss+xml" title="Archandas RSS" href="/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Archan Das RSS" href="/rss.xml" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
@@ -38,7 +38,7 @@ const nav = [
         <nav class="nav" aria-label="Main navigation">
           <a class="brand" href="/">
             <span class="brand-mark" aria-hidden="true"></span>
-            <span>archandas.com</span>
+            <span>Archan Das</span>
           </a>
           <div class="nav-links">
             {
@@ -60,8 +60,8 @@ const nav = [
       </main>
       <footer class="site-footer">
         <div class="footer-inner">
-          <span>© {new Date().getFullYear()} Archandas</span>
-          <span>Built with Astro. Hosted wherever static files go.</span>
+          <span>© {new Date().getFullYear()} Archan Das</span>
+          <span>archandas.com</span>
         </div>
       </footer>
     </div>

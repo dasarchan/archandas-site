@@ -1,4 +1,4 @@
-# Archandas Site
+# Archan Das Site
 
 A static personal website and blog for [archandas.com](https://archandas.com), built with [Astro](https://astro.build/).
 
