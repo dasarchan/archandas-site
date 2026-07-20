@@ -2,7 +2,7 @@ import { getCollection } from "astro:content";
 import { getPostUrl } from "../lib/posts";
 
 const site = "https://archandas.com";
-const staticPages = ["/", "/about/", "/blog/", "/projects/"];
+const staticPages = ["/", "/about/", "/blog/"];
 
 export async function GET() {
   const posts = (await getCollection("posts")).filter((post) => !post.data.draft);

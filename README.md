@@ -17,10 +17,21 @@ This project targets Node 22, which is also what the included GitHub Actions wor
 
 - Home page: `src/pages/index.astro`
 - About page: `src/pages/about.astro`
-- Projects page: `src/pages/projects.astro`
 - Blog posts: `src/content/posts/*.md`
 - Global design: `src/styles/global.css`
 - Site URL: `astro.config.mjs`
+
+## Blog CMS
+
+This repo is configured for [Pages CMS](https://pagescms.org/), a lightweight GitHub-backed editor for static sites.
+
+1. Go to [app.pagescms.org](https://app.pagescms.org/).
+2. Sign in with GitHub.
+3. Install or authorize the Pages CMS GitHub app for `dasarchan/archandas-site`.
+4. Open the repo and choose **Blog posts**.
+5. Create or edit posts in the browser UI.
+
+New CMS posts default to `draft: true`, so they are saved to GitHub but hidden from the site and RSS feed. Turn **Draft** off when you want a post to publish; Cloudflare will rebuild after the CMS saves the change.
 
 To add a post, create a new Markdown file in `src/content/posts`:
 
@@ -29,6 +40,7 @@ To add a post, create a new Markdown file in `src/content/posts`:
 title: "Post Title"
 description: "Short description for previews and SEO."
 pubDate: 2026-07-19
+draft: true
 tags: ["notes"]
 ---
 

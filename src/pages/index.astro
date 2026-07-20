@@ -12,18 +12,17 @@ const posts = (await getCollection("posts"))
 
 <BaseLayout
   title="Archan Das"
-  description="Writing, projects, and notes from Archan Das."
+  description="Essays and notes from Archan Das."
 >
   <section class="wrap hero">
     <div>
       <p class="eyebrow">Personal site</p>
       <h1>Archan Das</h1>
       <p class="lede">
-        Essays, projects, and notes from a personal corner of the web.
+        Essays and notes from a personal corner of the web.
       </p>
       <div class="actions">
         <a class="button" href="/blog/">Read the blog</a>
-        <a class="button secondary" href="/projects/">See projects</a>
         <a class="button secondary" href="/resume.pdf">Resume</a>
       </div>
     </div>
@@ -51,20 +50,4 @@ const posts = (await getCollection("posts"))
     </div>
   </section>
 
-  <section class="section">
-    <div class="wrap grid">
-      <article class="card">
-        <h3>Essays</h3>
-        <p class="muted">Longer pieces about what you are learning, noticing, or wrestling with.</p>
-      </article>
-      <article class="card">
-        <h3>Projects</h3>
-        <p class="muted">A lightweight portfolio for experiments, shipped work, and prototypes.</p>
-      </article>
-      <article class="card">
-        <h3>Notes</h3>
-        <p class="muted">Shorter fragments, reading logs, field notes, and useful links.</p>
-      </article>
-    </div>
-  </section>
 </BaseLayout>
