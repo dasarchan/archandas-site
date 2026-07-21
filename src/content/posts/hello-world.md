@@ -1,6 +1,6 @@
 ---
 title: "Why I want to write"
-description: "See title"
+description: "A short first post"
 pubDate: 2026-07-19
 tags: ["site", "notes"]
 ---

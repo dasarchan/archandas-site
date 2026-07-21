@@ -1,3 +1,51 @@
+@font-face {
+  font-family: "Linux Libertine";
+  src: url("/fonts/linux-libertine/LinLibertine_R.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Linux Libertine";
+  src: url("/fonts/linux-libertine/LinLibertine_I.otf") format("opentype");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Linux Libertine";
+  src: url("/fonts/linux-libertine/LinLibertine_RZ.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Linux Libertine";
+  src: url("/fonts/linux-libertine/LinLibertine_RZI.otf") format("opentype");
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Linux Libertine";
+  src: url("/fonts/linux-libertine/LinLibertine_RB.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Linux Libertine";
+  src: url("/fonts/linux-libertine/LinLibertine_RBI.otf") format("opentype");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
 :root {
   color-scheme: light;
   --bg: #ffffff;
@@ -6,7 +54,7 @@
   --line: #dddddd;
   --code: #f5f5f5;
   --max: 920px;
-  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, ui-serif, serif;
+  font-family: "Linux Libertine", Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, ui-serif, serif;
 }
 
 * {
@@ -22,6 +70,7 @@ body {
   color: var(--ink);
   background: var(--bg);
   font-size: 18px;
+  font-weight: 400;
   line-height: 1.7;
 }
 
@@ -70,7 +119,7 @@ img {
   gap: 12px;
   color: var(--ink);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -81,6 +130,7 @@ img {
   display: inline-grid;
   place-items: center;
   font-size: 0.7rem;
+  font-weight: 600;
   line-height: 1;
 }
 
@@ -128,13 +178,14 @@ main {
   color: var(--muted);
   font-size: 1rem;
   font-weight: 400;
+  font-style: italic;
   text-transform: none;
 }
 
 h1,
 h2,
 h3 {
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.15;
   letter-spacing: 0;
 }
@@ -142,24 +193,24 @@ h3 {
 h1 {
   max-width: none;
   margin: 0;
-  font-size: clamp(2.4rem, 5vw, 3.4rem);
+  font-size: clamp(2.25rem, 4.5vw, 3.1rem);
 }
 
 h2 {
   margin: 0 0 16px;
-  font-size: clamp(1.7rem, 3vw, 2.2rem);
+  font-size: clamp(1.55rem, 2.6vw, 1.95rem);
 }
 
 h3 {
   margin: 0 0 10px;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
 }
 
 .lede {
   max-width: 620px;
   margin: 18px 0 0;
   color: var(--ink);
-  font-size: 1.18rem;
+  font-size: 1.16rem;
   line-height: 1.55;
 }
 
@@ -226,7 +277,8 @@ h3 {
 .post-row time,
 .meta {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.96rem;
+  font-style: italic;
 }
 
 .tags {
@@ -253,12 +305,12 @@ h3 {
 
 .prose h1 {
   max-width: none;
-  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-size: clamp(2.1rem, 4.5vw, 2.9rem);
 }
 
 .prose h2 {
   margin-top: 40px;
-  font-size: clamp(1.55rem, 3vw, 2rem);
+  font-size: clamp(1.45rem, 2.6vw, 1.85rem);
 }
 
 .prose p,
@@ -310,6 +362,6 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(2.3rem, 12vw, 3rem);
+    font-size: clamp(2.2rem, 11vw, 2.8rem);
   }
 }
