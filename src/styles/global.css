@@ -50,7 +50,7 @@
   color-scheme: light;
   --bg: #ffffff;
   --ink: #000000;
-  --muted: #555555;
+  --muted: #000000;
   --line: #dddddd;
   --code: #f5f5f5;
   --max: 920px;
@@ -72,6 +72,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  font-synthesis: none;
 }
 
 a {
@@ -93,67 +95,6 @@ img {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-.site-header {
-  border-bottom: 1px solid var(--line);
-  background: var(--bg);
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.nav {
-  width: min(100% - 32px, var(--max));
-  min-height: 64px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-}
-
-.brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  color: var(--ink);
-  font-size: 1rem;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.brand-mark {
-  width: 28px;
-  height: 28px;
-  border: 1px solid var(--ink);
-  display: inline-grid;
-  place-items: center;
-  font-size: 0.7rem;
-  font-weight: 600;
-  line-height: 1;
-}
-
-.brand-mark::before {
-  content: "AD";
-}
-
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  font-size: 0.95rem;
-}
-
-.nav-links a {
-  color: var(--ink);
-}
-
-.nav-links a:hover,
-.nav-links a[aria-current="page"] {
-  color: var(--muted);
 }
 
 main {
@@ -182,7 +123,7 @@ main {
 
 .home-card p {
   margin: 8px 0 0;
-  color: var(--muted);
+  color: var(--ink);
   font-size: 1.16rem;
 }
 
@@ -208,17 +149,17 @@ main {
 
 .eyebrow {
   margin: 0 0 14px;
-  color: var(--muted);
+  color: var(--ink);
   font-size: 1rem;
   font-weight: 400;
-  font-style: italic;
+  font-style: normal;
   text-transform: none;
 }
 
 h1,
 h2,
 h3 {
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.15;
   letter-spacing: 0;
 }
@@ -265,7 +206,7 @@ h3 {
 }
 
 .muted {
-  color: var(--muted);
+  color: var(--ink);
 }
 
 .grid {
@@ -309,9 +250,9 @@ h3 {
 
 .post-row time,
 .meta {
-  color: var(--muted);
+  color: var(--ink);
   font-size: 0.96rem;
-  font-style: italic;
+  font-style: normal;
 }
 
 .tags {
@@ -360,7 +301,7 @@ h3 {
 .site-footer {
   border-top: 1px solid var(--line);
   padding: 32px 0;
-  color: var(--muted);
+  color: var(--ink);
   font-size: 0.95rem;
 }
 
@@ -374,18 +315,6 @@ h3 {
 }
 
 @media (max-width: 760px) {
-  .nav {
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-    padding: 14px 0;
-  }
-
-  .nav-links {
-    justify-content: flex-start;
-    gap: 12px 16px;
-  }
-
   .hero {
     padding: 48px 0 72px;
   }

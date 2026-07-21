@@ -4,18 +4,11 @@ import "../styles/global.css";
 const {
   title = "Archan Das",
   description = "A personal website and blog for Archan Das.",
-  hideHeader = false,
   hideFooter = false,
   pageClass = "",
 } = Astro.props;
 
 const url = new URL(Astro.url.pathname, Astro.site);
-const nav = [
-  { href: "/", label: "Home" },
-  { href: "/blog/", label: "Blog" },
-  { href: "/about/", label: "About" },
-  { href: "/resume.pdf", label: "Resume" },
-];
 ---
 
 <!doctype html>
@@ -36,29 +29,6 @@ const nav = [
   </head>
   <body>
     <div class={`site-shell ${pageClass}`}>
-      {
-        !hideHeader && (
-          <header class="site-header">
-            <nav class="nav" aria-label="Main navigation">
-              <a class="brand" href="/">
-                <span class="brand-mark" aria-hidden="true"></span>
-                <span>Archan Das</span>
-              </a>
-              <div class="nav-links">
-                {nav.map((item) => (
-                  <a
-                    href={item.href}
-                    aria-current={Astro.url.pathname === item.href ? "page" : undefined}
-                  >
-                    {item.label}
-                  </a>
-                ))}
-                <a href="/rss.xml">RSS</a>
-              </div>
-            </nav>
-          </header>
-        )
-      }
       <main>
         <slot />
       </main>
