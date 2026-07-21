@@ -4,6 +4,9 @@ import "../styles/global.css";
 const {
   title = "Archan Das",
   description = "A personal website and blog for Archan Das.",
+  hideHeader = false,
+  hideFooter = false,
+  pageClass = "",
 } = Astro.props;
 
 const url = new URL(Astro.url.pathname, Astro.site);
@@ -32,37 +35,43 @@ const nav = [
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    <div class="site-shell">
-      <header class="site-header">
-        <nav class="nav" aria-label="Main navigation">
-          <a class="brand" href="/">
-            <span class="brand-mark" aria-hidden="true"></span>
-            <span>Archan Das</span>
-          </a>
-          <div class="nav-links">
-            {
-              nav.map((item) => (
-                <a
-                  href={item.href}
-                  aria-current={Astro.url.pathname === item.href ? "page" : undefined}
-                >
-                  {item.label}
-                </a>
-              ))
-            }
-            <a href="/rss.xml">RSS</a>
-          </div>
-        </nav>
-      </header>
+    <div class={`site-shell ${pageClass}`}>
+      {
+        !hideHeader && (
+          <header class="site-header">
+            <nav class="nav" aria-label="Main navigation">
+              <a class="brand" href="/">
+                <span class="brand-mark" aria-hidden="true"></span>
+                <span>Archan Das</span>
+              </a>
+              <div class="nav-links">
+                {nav.map((item) => (
+                  <a
+                    href={item.href}
+                    aria-current={Astro.url.pathname === item.href ? "page" : undefined}
+                  >
+                    {item.label}
+                  </a>
+                ))}
+                <a href="/rss.xml">RSS</a>
+              </div>
+            </nav>
+          </header>
+        )
+      }
       <main>
         <slot />
       </main>
-      <footer class="site-footer">
-        <div class="footer-inner">
-          <span>© {new Date().getFullYear()} Archan Das</span>
-          <span>archandas.com</span>
-        </div>
-      </footer>
+      {
+        !hideFooter && (
+          <footer class="site-footer">
+            <div class="footer-inner">
+              <span>© {new Date().getFullYear()} Archan Das</span>
+              <span>archandas.com</span>
+            </div>
+          </footer>
+        )
+      }
     </div>
   </body>
 </html>
