@@ -1,6 +1,11 @@
 media:
-  input: public
-  output: /
+  - name: images
+    label: Images
+    input: public/images
+    output: /images
+    categories: [image]
+    extensions: [jpg, jpeg, png, webp, gif]
+    rename: safe
 
 settings:
   content:
@@ -61,4 +66,7 @@ content:
         required: true
         options:
           format: markdown
-          media: false
+          media: images
+          path: public/images/blog
+          rename: safe
+          switcher: true
