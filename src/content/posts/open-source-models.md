@@ -2,7 +2,7 @@
 title: On open source models
 description: Musings on where the world could go with open source AI
 pubDate: 2026-07-20
-draft: true
+draft: false
 tags:
   - AI
 ---
