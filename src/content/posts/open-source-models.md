@@ -47,7 +47,7 @@ Neither of these things seem obviously true or false to me. A 6x advantage on in
 
 This raises an interesting question on incentives: are open-source frontier labs incentivized to train models that implement unusual operations (such that significant optimization advantages can be had)? Standard self-attention has been studied for years, and extremely optimized [algorithms](https://arxiv.org/abs/2603.05451) exist and are widely known. DeepSeek's models use [DeepSeek Sparse Attention (DSA)](https://arxiv.org/abs/2512.02556), and it's reasonable to believe that DeepSeek has spent more time optimizing its own attention algorithm than anyone else. To be clear, I don't think that DSA exists for some strange economic reason (it performs better than the standard stuff) but it is strange that this incentive exists at all.
 
-### Conclusion
+## Conclusion
 
 There are a whole host of exciting things that could come out of open-weight LLMs, and I think that the economics behind it could create some really interesting markets and technologies. I would like to think about this more, and chat about this with smarter people than myself.
 
