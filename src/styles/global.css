@@ -140,11 +140,15 @@ main {
 }
 
 .blog-head {
-  padding: 76px 0 24px;
+  padding: 40px 0 18px;
 }
 
 .blog-head h1 {
   font-size: clamp(2.7rem, 5vw, 3.6rem);
+}
+
+.blog-list-section {
+  padding: 0 0 64px;
 }
 
 .hero {
@@ -238,9 +242,10 @@ h3 {
 }
 
 .post-row {
+  border-top: 0;
   display: grid;
   gap: 8px;
-  padding: 22px 0;
+  padding: 14px 0;
   text-decoration: none;
   color: var(--ink);
 }
