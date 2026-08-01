@@ -30,7 +30,7 @@ Here is where the real attraction to open source models lies, personally. The in
 
 DeepSeek CEO Liang Wenfeng spoke about this in DeepSeek's most recent investor meeting. From an English translation:
 
-> Open source does not affect our business model. [...] There is no conflict between open source and paid commercialization, as long as we are talking about a reasonable multiple rather than extreme profit. [...] If you want to earn one hundred times profit, then yes, open source will affect that, because third parties can deploy the model themselves.
+> Open source does not affect our business model. [...] There is no conflict between open source and paid commercialization, as long as we are talking about a reasonable multiple rather than extreme profit. [...] The premise is that we only earn sixfold profit—ten months to recover cost roughly corresponds to sixfold profit.
 
 It took me some time to digest what he was saying here - Liang claims that Deepseek can make their money back on training in 10 months if they offer inference with a 6x markup. The reasonable next question might be - is Deepseek getting undercut on inference prices, given that they are marking up their costs 6x? Here's the OpenRouter pricing comparison for Deepseek-V4-Pro:
 
