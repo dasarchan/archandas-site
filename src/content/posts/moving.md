@@ -8,13 +8,13 @@ draft: false
 
 I moved from Mountain View to San Francisco one month ago. I'm still adjusting to life in the city, but it has been a great experience so far. The entire move was completed in one day, with a U-Haul truck and a great friend (thanks Brandon). The two most painful things to move were my mattress and my desk. Moving the mattress was successful if arduous, but the desk presented greater challenges.
 
-About eight months ago, I found a listing for an old walnut desk on Craigslist that someone was giving away for free.  I drove over to the listed address somewhere in Menlo Park and tried to tilt the desk into the trunk of my CR-V. A random person who was passing by saw me struggling and helped me lift it into my car. The desk probably weighed around 150 pounds and took up almost exactly the cargo area of my car, with the seats folded down.
+About eight months ago, I found a listing for an old walnut desk on Craigslist that someone was giving away for free.  I drove over to the listed address somewhere in Menlo Park and tried to tilt the desk into the trunk of my CR-V. A random person who was passing by saw me struggling and helped me lift it into my car. The desk probably weighed around 150 pounds and took up almost exactly the cargo area of my car, with the seats folded down, and it crushed a small dent into the [headliner](https://en.wikipedia.org/wiki/Headliner_(material)) of my car.
 
 For several months, the desk lived its life as a TV stand. I had originally picked it up thinking that I'd be spending significant time working remotely. When that didn't happen, I decided to use it as a nice looking TV stand that could be used as a desk on the rare occasions that one was needed.
 
 I decided to bring the desk to San Francisco because I would be working from home more, around once or twice a week, and it would be nice to have a big desk in my room. Brandon and I hauled it around to the moving truck, and after about twenty minutes of reorganizing items to fit the desk, managed to get it in. Once in San Francisco, three of us maneuvered the desk up an extremely tight spiral staircase at great effort. At this point, this desk had inflicted a brutal deadlifting workout on three separate people. We pulled the desk towards my bedroom door, and it wouldn't fit. Too wide. It was carried back down to the curb.
 
-The desk left my life about a week later after it disappeared off a sidewalk on 30th Street, with a "FREE: PLEASE TAKE" sign taped on top. May that desk forever inflict pain on whoever is cursed to move it.
+The desk left my life about a week later after it disappeared off a sidewalk on 30th Street, with a "FREE: PLEASE TAKE" sign taped on top. May that desk forever inflict pain on he who is cursed to move it.
 
 # 2.
 
