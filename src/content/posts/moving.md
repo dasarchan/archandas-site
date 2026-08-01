@@ -28,7 +28,9 @@ My favorite podcast is [This American Life](https://www.thisamericanlife.org/). 
 
 I try to listen to radio at times, but I value the fact that I can listen to a podcast episode from end-to-end and always get the show that I want. I occasionally tune in to Fresh Air and Science Friday on KALW. Other podcasts I like are Radiolab and Throughline. It turns out that almost all of the podcasts and radio I consume is from NPR - they're just the best in the business. The sole exception that I listen to, with any regularity, is BBC Radio 4's The Life Scientific, a great podcast where they interview a scientist about their career and work.
 
-Podcasts have shifted my overall media consumption significantly away from my phone, towards the radio. I still occasionally scroll on Instagram or Twitter, but nothing comes close to the two hours a day I spend with NPR. I'm happy that I have an opportunity to sit and listen to two thoughtful, mentally engaging podcast episodes every day, and I think this shift has positively impacted my life. The drive really isn't too bad with the podcasts.
+Podcasts have shifted my overall media consumption significantly away from my phone, towards the radio. I still occasionally scroll on Instagram or Twitter, but nothing comes close to the two hours a day I spend with NPR. I'm happy that I have an opportunity to sit and listen to two thoughtful, mentally engaging podcast episodes every day, and I think this shift has positively impacted my life. 
+
+The drive really isn't too bad.
 
 # 3.
 
