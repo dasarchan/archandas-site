@@ -30,3 +30,10 @@ I try to listen to radio at times, but I value the fact that I can listen to a p
 
 Podcasts have shifted my overall media consumption significantly away from my phone, towards the radio. I still occasionally scroll on Instagram or Twitter, but nothing comes close to the two hours a day I spend with NPR. I'm happy that I have an opportunity to sit and listen to two thoughtful, mentally engaging podcast episodes every day, and I think this shift has positively impacted my life. The drive really isn't too bad with the podcasts.
 
+# 3.
+
+My justifications for moving to San Francisco differed depending on who I was talking to, and none of the answers were particularly false. To my parents, my move to the city was motivated by a desire to be closer to the "center of action" with regards to AI. Being an engineer in San Francisco means that you will meet more people working on cool stuff than anywhere else. My aspirations to create cool stuff should theoretically be helped along by surrounding myself with these people. To others, my justification was more worldly - San Francisco has more walkability, and restaurants, and interesting events, than any other part of the Bay Area. Another of the reason to move up here was to be closer to friends, and my girlfriend.
+
+I don't really know which of these reasons is actually the most important. I have in fact met a good number of cool people working on cool stuff. I spend more time with my friends who live in the city, and I'm able to hang out with my girlfriend on weekdays. I end up trying a couple new restaurants every week, and so far they've definitely beaten the options in Mountain View. That being said, 90% of my time outside of work is not spent meeting people, or hanging out with friends, or eating at restaurants.
+
+I think my attraction to San Francisco hinges on something less describable - I just like it here! I spend a lot of time walking around as a form of meditation, and Noe Valley (my new neighborhood) is a really nice place to walk around. It is difficult to describe this to other people as my motivation for moving, but it means a lot to me.
