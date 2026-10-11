@@ -29,7 +29,13 @@ This second requirement is what I am calling **knowledge transfer**, the ability
 
 Perhaps this is a skill issue on my part, but I find it very difficult to truly understand Claude when I ask it to explain a set of changes it made. Sometimes, agents will spit out explanations that make me feel like I understand what is happening, but by trying to continue the work it becomes clear that I never really understood anything in the first place. Humans are pretty bad at evaluating their own level of understanding of a concept (conversely, it’s quite easy to convince a human that they have understood something without actually having to explain it to them in detail!). This phenomenon has been studied in cognitive science as the ++[illusion of explanatory depth](https://doi.org/10.1207/s15516709cog2605_1)++, and more recently in the context of AI-assisted research as ++[illusions of understanding](https://doi.org/10.1038/s41586-024-07146-0)++.
 
-With all of the recent advances in capabilities from frontier models, it is surprising that the models are still this bad at knowledge transfer. It is difficult to create a verifiable reward for this task, so scaling up post-training on “explanation quality” is probably still very difficult. Still, this bottleneck is one of the major barriers to further productivity gains from AI, and it must be a top priority for labs.
+With all of the recent advances in capabilities from frontier models, it is surprising that the models are still this bad at knowledge transfer. It is difficult to create a verifiable reward for this task, so scaling up post-training on “explanation quality” is probably still very difficult.
+
+## **Who cares?**
+
+One natural response to this problem is: who cares? Assuming that AI capabilities continue to progress at an exponential rate, human understanding will become less and less important to cognitive work. One could argue that it does not matter whether or not the engineer understands their code as long as it works.
+
+	This certainly seems plausible to me, but I’m skeptical that this will happen in the immediate future. For example, I believe that AI is already superhuman (or at least super-Archan) at coding, but it is still necessary for me to understand codebases to do my job, if only so I can tell the AI to do the right thing. Until corporations are entirely controlled and operated by AI, there will always be some need to interface clearly between humans and AI agents, and the effectiveness of this interface is constrained by the level of shared understanding between humans and AIs.
 
 ## **How do I solve this?**
 
