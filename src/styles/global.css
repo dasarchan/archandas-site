@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Linux Libertine";
-  src: url("/fonts/linux-libertine/LinLibertine_I.otf") format("opentype");
+  src: url("/fonts/linux-libertine/LinLibertine_RI.otf") format("opentype");
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -84,6 +84,15 @@ a {
 
 a:hover {
   color: var(--muted);
+}
+
+.remark-ins {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+.remark-ins a {
+  text-decoration: none;
 }
 
 img {
