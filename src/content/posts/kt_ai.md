@@ -35,7 +35,7 @@ With all of the recent advances in capabilities from frontier models, it is surp
 
 One natural response to this problem is: who cares? Assuming that AI capabilities continue to progress at an exponential rate, human understanding will become less and less important to cognitive work. One could argue that it does not matter whether or not the engineer understands their code as long as it works.
 
-	This certainly seems plausible to me, but I’m skeptical that this will happen in the immediate future. For example, I believe that AI is already superhuman (or at least super-Archan) at coding, but it is still necessary for me to understand codebases to do my job, if only so I can tell the AI to do the right thing. Until corporations are entirely controlled and operated by AI, there will always be some need to interface clearly between humans and AI agents, and the effectiveness of this interface is constrained by the level of shared understanding between humans and AIs.
+This certainly seems plausible to me, but I’m skeptical that this will happen in the immediate future. For example, I believe that AI is already superhuman (or at least super-Archan) at coding, but it is still necessary for me to understand codebases to do my job, if only so I can tell the AI to do the right thing. Until corporations are entirely controlled and operated by AI, there will always be some need to interface clearly between humans and AI agents, and the effectiveness of this interface is constrained by the level of shared understanding between humans and AIs.
 
 ## **How do I solve this?**
 
