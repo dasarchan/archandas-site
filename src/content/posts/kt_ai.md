@@ -16,7 +16,7 @@ A typical day for me involves thinking of some new experiment to run, deciding w
 
 There is a trap in this workflow: if I give Claude vague instructions, and it goes out and implements a new experiment that I don’t really understand, I won’t be able to interpret the results correctly and the next steps are likely to be wrong. The same kind of phenomenon occurs with regular old software engineering - I have to implement some new feature into our backend, I ask Claude to do it with vague instructions, and then something breaks and I don’t know how to fix it because I don’t know what’s going on.
 
-Of course, there’s some useful level of abstraction when using AI - if I had to understand why every single line of code was written, there wouldn’t really be a point to using AI in the first place. AI accelerates my workflow under very specific conditions:
+Of course, there’s some useful level of abstraction when using AI - if I had to understand why every single line of code was written, there wouldn’t really be a point to using AI in the first place. AI accelerates my workflow under two conditions:
 
 1. AI must be able to take a simple imperative (“go build this”) and figure out the lower level details to write the actual code.
 2. AI must be able to explain the code it has written in a way that I can update my mental models and figure out how the next thing should be built.
