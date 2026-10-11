@@ -43,7 +43,7 @@ One successful strategy that I have found is to have agents generate quizzes for
 
 ![image.png](/images/blog/image-2.png)
 
-*Example quiz question on the Flask codebase. Note how the question is jargon-heavy and phrased strangely - models have room to improve on knowledge-tracing!*
+*Example quiz question on the Flask codebase. Note how the question is jargon-heavy and phrased strangely - models have quite a lot of room to improve on question generation for knowledge tracing!*
 
 Usually, I completely flunk the first round of this quiz. The next step of the process is to hand my quiz results back to an agent, and have it generate explanations for what was done that specifically patch the gaps in my understanding exposed by the quiz. After generating more explanations, the agent generates a new quiz, and the process iterates until the agent is satisfied with my level of understanding.
 
