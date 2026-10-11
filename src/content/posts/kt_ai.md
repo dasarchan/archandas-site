@@ -8,7 +8,7 @@ draft: false
 
 I use AI every single day. It is now a crucial tool that I rely on to do my job. For context, my primary job at the moment is to conduct ML research in the aviation domain, and on a day-to-day basis I create and run experiments to improve a small set of models used in our team’s products. I also do a good amount of regular software engineering work, implementing new features into our products across the stack, mostly to serve the aforementioned models to customers in newer and better ways.
 
-The biggest bottleneck in my workflow is a lack of knowledge transfer between my agents and me.
+The biggest bottleneck in my workflow today is the difficulty of understanding the code produced by agents. Claude Code attempts to explain what it’s doing to me, but I rarely grok it properly.
 
 ## **What is knowledge transfer here?**
 
