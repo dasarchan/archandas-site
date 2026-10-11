@@ -35,7 +35,13 @@ With all of the recent advances in capabilities from frontier models, it is surp
 
 One successful strategy that I have found is to have agents generate quizzes for me to complete for every PR. The quiz should test my understanding of what changes were made, why the changes were made, and what the impacts of those changes will be on the rest of a system as well as future feature development.
 
+![image.png](/images/blog/image-2.png)
+
+*Example quiz question on the Flask codebase. Note how the question is jargon-heavy and phrased strangely - models have room to improve on knowledge-tracing!*
+
 Usually, I completely flunk the first round of this quiz. The next step of the process is to hand my quiz results back to an agent, and have it generate explanations for what was done that specifically patch the gaps in my understanding exposed by the quiz. After generating more explanations, the agent generates a new quiz, and the process iterates until the agent is satisfied with my level of understanding.
+
+![image.png](/images/blog/image-3.png)
 
 This approach has parallels with research on ++[knowledge tracing](https://doi.org/10.1007/BF01099821)++, which models what a learner knows based on their responses, and ++[test-enhanced learning](https://doi.org/10.1111/j.1467-9280.2006.01693.x)++, which studies how testing itself can improve retention.
 
