@@ -1,5 +1,5 @@
 ---
-title: Knowledge Transfer with AI
+title: Knowledge transfer in the era of vibe coding
 description: Thoughts on shared understanding between humans and AI
 pubDate: 2026-10-11
 draft: false
