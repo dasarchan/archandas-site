@@ -121,17 +121,11 @@ main {
   font-size: clamp(2rem, 8vw, 2.8rem);
 }
 
-.home-card p {
-  margin: 8px 0 0;
-  color: var(--ink);
-  font-size: 1.16rem;
-}
-
 .home-links {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 18px;
-  margin-top: 24px;
+  margin-top: 18px;
 }
 
 .wrap {
@@ -145,6 +139,11 @@ main {
 
 .blog-head h1 {
   font-size: clamp(2.7rem, 5vw, 3.6rem);
+}
+
+.blog-head a {
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .blog-list-section {
